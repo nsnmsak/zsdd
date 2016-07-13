@@ -16,4 +16,4 @@ zsdd [-c .] [-d .] [-v .] [-R .] [-S .]  [-h]
 ```    
 
 ##Reference
-Masaaki Nishino, Norihito Yasuda, Shin-ichi Minato, and Masaaki Nagata: "Zero-suppressed Sentential Decision Diagrams," In Proc. of the 30th AAAI Conference on Artificial Intelligence (AAAI2016), Feb. 2016.
+Masaaki Nishino, Norihito Yasuda, Shin-ichi Minato, and Masaaki Nagata: "Zero-suppressed Sentential Decision Diagrams," In Proc. of the 30th AAAI Conference on Artificial Intelligence (AAAI2016), pp.1058--1066, Feb. 2016. [Paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12434)
