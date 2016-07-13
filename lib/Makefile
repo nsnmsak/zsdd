@@ -14,7 +14,7 @@ all :  $(APPS)
 
 
 clean :
-	rm -f *.o
+	rm -f *.o $(APPS)
 
 
 
