@@ -795,7 +795,7 @@ void  ZsddManager::export_zsdd_txt(const addr_t zsdd, std::ostream& os) const {
         "c ids of zsdd nodes start at 0\n"
         "c zsdd nodes appear bottom-up, children before parents\n"
         "c The empty constant node corresponds to id -1\n"
-        "c The false empty constant node corresponds to id -2\n"
+        "c The false constant node corresponds to id -2\n"
         "c\n"
         "c file syntax:\n"
         "c zsdd count-of-zsdd-nodes\n"
@@ -809,6 +809,7 @@ void  ZsddManager::export_zsdd_txt(const addr_t zsdd, std::ostream& os) const {
         return;
     } else if (zsdd == -2) {
         os << "zsdd \nF 0" << std::endl;
+        return;
     } 
     // zsdd >= 0
     os << "zsdd " << size(zsdd) << std::endl;
