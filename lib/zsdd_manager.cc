@@ -119,7 +119,7 @@ addr_t ZsddManager::zsdd_apply_withvar(const Operation& op, const addr_t zsdd, c
 
     }
 
-    const ZsddNode& n = get_zsddnode_at(zsdd);
+    const ZsddNode n = get_zsddnode_at(zsdd);
     if (n.type() == NodeType::LIT) {
         if (op == Operation::CHANGE) {
             if (llabs(n.literal()) == var) {
