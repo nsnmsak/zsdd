@@ -1,9 +1,9 @@
 # ZSDD
-##Zero-suppressed Sentential Decision Diagrams
+## Zero-suppressed Sentential Decision Diagrams
 Sample software of Zero-suppressed Sentential Decision Diagrams (ZSDDs), which compiles a CNF/DNF into a ZSDD. Please see the paper for the details of ZSDDs.
 
 
-##Usage
+## Usage
 ```
 zsdd [-c .] [-d .] [-v .] [-R .] [-S .]  [-h]
     -c FILE        set input CNF file
@@ -15,5 +15,5 @@ zsdd [-c .] [-d .] [-v .] [-R .] [-S .]  [-h]
     -h             show help message and exit
 ```    
 
-##Reference
+## Reference
 Masaaki Nishino, Norihito Yasuda, Shin-ichi Minato, and Masaaki Nagata: "Zero-suppressed Sentential Decision Diagrams," In Proc. of the 30th AAAI Conference on Artificial Intelligence (AAAI2016), pp.1058--1066, Feb. 2016. [Paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12434)
